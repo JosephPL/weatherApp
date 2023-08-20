@@ -1,0 +1,15 @@
+.allWeather {
+  width: 7.5rem;
+  height: 11.0625rem;
+  background-color: var(--card-background-color);
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+.allWeather span {
+  color: var(--colot-text-dark);
+}
+.imageWeather {
+  width: 3.5rem;
+  height: 3.875rem;
+}
