@@ -5,8 +5,8 @@ import "../styles/cardToday.css";
 
 export const CardWeather = () => {
   return (
-    <>
-      <div className="allWeather">
+    <div className="weekWeather">
+      <div className="cardWeather">
         <div className="title">Tomorrow</div>
         <div className="imageWeather">
           <img src="images/Sleet.png" alt="weather-image" />
@@ -20,7 +20,7 @@ export const CardWeather = () => {
         </div>
       </div>
 
-      <div className="allWeather">
+      <div className="cardWeather">
         <div className="title">day</div>
         <div className="imageWeather">
           <img src="images/Clear.png" alt="weather-image" />
@@ -31,7 +31,7 @@ export const CardWeather = () => {
         </div>
       </div>
 
-      <div className="allWeather">
+      <div className="cardWeather">
         <div className="title">day</div>
         <div className="imageWeather">
           <img src="images/Clear.png" alt="weather-image" />
@@ -42,7 +42,7 @@ export const CardWeather = () => {
         </div>
       </div>
 
-      <div className="allWeather">
+      <div className="cardWeather">
         <div className="title">day</div>
         <div className="imageWeather">
           <img src="images/Clear.png" alt="weather-image" />
@@ -53,7 +53,7 @@ export const CardWeather = () => {
         </div>
       </div>
 
-      <div className="allWeather">
+      <div className="cardWeather">
         <div className="title">day</div>
         <div className="imageWeather">
           <img src="images/Clear.png" alt="weather-image" />
@@ -63,6 +63,6 @@ export const CardWeather = () => {
           <FontAwesomeIcon icon={faTemperature1}></FontAwesomeIcon>°
         </div>
       </div>
-    </>
+    </div>
   );
 };

@@ -1,15 +1,30 @@
-.allWeather {
+.weekWeather {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cardWeather {
   width: 7.5rem;
   height: 11.0625rem;
   background-color: var(--card-background-color);
   display: grid;
   justify-content: center;
   text-align: center;
+  margin: 1rem;
 }
-.allWeather span {
+.title {
+  padding-top: 1rem;
+}
+.cardWeather span {
   color: var(--colot-text-dark);
 }
 .imageWeather {
   width: 3.5rem;
   height: 3.875rem;
+}
+
+@media (max-width: 768px) {
+  /* .weekWeather {
+    width: 100vw;
+  } */
 }

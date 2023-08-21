@@ -4,12 +4,13 @@ import { CardWeather } from "./components/CardWeather";
 
 function App() {
   return (
-    <div className="main">
+    <>
       <CardToday />
       <div className="infoApp">
         <CardWeather />
+        <h2>Today’s Hightlights</h2>
       </div>
-    </div>
+    </>
   );
 }
 

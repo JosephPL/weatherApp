@@ -20,13 +20,16 @@ body {
   color: var(--color-text);
   background-color: var(--background-color);
 }
-.main {
-  display: flex;
-  flex-wrap: wrap;
-}
 .infoApp {
-  display: flex;
-  width: 50%;
-  /* margin: 0 auto; */
-  justify-content: space-between;
+  width: 68%;
+  display: grid;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .infoApp {
+    width: 100vw;
+  }
+  .infoApp h2 {
+    display: none;
+  }
 }
